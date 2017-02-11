@@ -1,0 +1,7 @@
+alias st="git status"
+alias di="git diff"
+alias ci="git commit -m"
+alias pull="git pull --rebase origin"
+alias push="git push origin"
+alias bra="git branch -a"
+alias hista="git log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue) <%an>%Creset' --abbrev-commit --branches"

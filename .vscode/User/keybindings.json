@@ -1,0 +1,8 @@
+[
+  {"key": "cmd+\\", "command": "workbench.action.toggleSidebarVisibility"},
+  {"key": "ctrl+`", "command": "workbench.action.terminal.focus", "when": "!terminalFocus"},
+  {"key": "cmd+right", "command": "workbench.action.terminal.focusNext", "when": "terminalFocus"},
+  {"key": "cmd+left", "command": "workbench.action.terminal.focusPrevious", "when": "terminalFocus"},
+  {"key": "cmd+w", "command": "workbench.action.terminal.kill", "when": "terminalFocus"},
+  {"key": "cmd+shift+d", "command": "editor.action.copyLinesDownAction", "when": "editorTextFocus && !editorReadonly"}
+]
