@@ -34,4 +34,5 @@
   "workbench.statusBar.visible": false,
   "workbench.colorTheme": "Visual Studio Light",
   "workbench.iconTheme": "vscode-great-icons",
+  "diffEditor.ignoreTrimWhitespace": false
 }
