@@ -31,6 +31,7 @@
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "typescript.check.tscVersion": false,
   "editor.wordWrap": "on",
+  "workbench.statusBar.visible": false,
   "workbench.colorTheme": "Visual Studio Light",
   "workbench.iconTheme": "vscode-great-icons",
 }
