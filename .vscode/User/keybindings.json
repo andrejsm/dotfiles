@@ -5,5 +5,6 @@
   {"key": "cmd+right", "command": "workbench.action.terminal.focusNext", "when": "terminalFocus"},
   {"key": "cmd+left", "command": "workbench.action.terminal.focusPrevious", "when": "terminalFocus"},
   {"key": "cmd+w", "command": "workbench.action.terminal.kill", "when": "terminalFocus"},
-  {"key": "cmd+shift+d", "command": "editor.action.copyLinesDownAction", "when": "editorTextFocus && !editorReadonly"}
+  {"key": "cmd+shift+d", "command": "editor.action.copyLinesDownAction", "when": "editorTextFocus && !editorReadonly"},
+  {"key": "ctrl+shift+q", "command": "workbench.action.toggleMaximizedPanel"}
 ]
