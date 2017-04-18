@@ -30,5 +30,5 @@
   "workbench.editor.enablePreview": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "typescript.check.tscVersion": false,
-  "editor.wordWrap": true
+  "editor.wordWrap": "on",
 }
