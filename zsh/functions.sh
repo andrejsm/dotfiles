@@ -17,7 +17,7 @@ e() {
 run() {
 	if [ -f ".run" ]
 	then
-		bash .run
+		bash .run $@
 	else
 		echo "Don't know what to run"
 	fi
