@@ -5,3 +5,4 @@
 !.vscode/User/keybindings.json
 .vscode/*/workspaceStorage
 ./submodules/
+zsh/symlinks/

@@ -1,7 +1,7 @@
 DOTFILES_PATH="$HOME/dotfiles"
 
 # Add function path
-fpath=( "$DOTFILES_PATH/zsh/plugins/pure" $fpath )
+fpath=( "$DOTFILES_PATH/zsh/symlinks" $fpath )
 
 # Add more colors
 source "$DOTFILES_PATH/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"

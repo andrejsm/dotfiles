@@ -8,8 +8,8 @@ VSCODE_PATH="$INSTALLER_PATH/.vscode"
 
 # Prepare prompt theme
 echo "Preparing prompt theme: Pure"
-ln -s "$ZSH_PATH/plugins/pure/pure.zsh" "$ZSH_PATH/plugins/pure/prompt_pure_setup"
-ln -s "$ZSH_PATH/plugins/pure/async.zsh" "$ZSH_PATH/plugins/pure/async"
+ln -s "$ZSH_PATH/plugins/pure/pure.zsh" "$ZSH_PATH/symlinks/prompt_pure_setup"
+ln -s "$ZSH_PATH/plugins/pure/async.zsh" "$ZSH_PATH/symlinks/async"
 
 
 # Link .zshrc
