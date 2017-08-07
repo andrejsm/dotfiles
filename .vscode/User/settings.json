@@ -33,6 +33,8 @@
   "editor.wordWrap": "on",
   "workbench.statusBar.visible": false,
   "workbench.colorTheme": "Visual Studio Light",
-  "workbench.iconTheme": "vscode-great-icons",
-  "diffEditor.ignoreTrimWhitespace": false
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.renderWhitespace": "all",
+  "editor.minimap.enabled": false,
+  "workbench.iconTheme": "vscode-great-icons"
 }
