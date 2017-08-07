@@ -46,3 +46,5 @@ if [[ -a "$HOME/.zshrc_local" ]]
 then
   source "$HOME/.zshrc_local"
 fi
+
+. $DOTFILES_PATH/submodules/asdf/asdf.sh
