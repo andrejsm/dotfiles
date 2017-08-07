@@ -32,9 +32,12 @@
   "typescript.check.tscVersion": false,
   "editor.wordWrap": "on",
   "workbench.statusBar.visible": false,
-  "workbench.colorTheme": "Visual Studio Light",
-  "diffEditor.ignoreTrimWhitespace": false,
   "editor.renderWhitespace": "all",
+  "workbench.iconTheme": "vscode-great-icons",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.colorTheme": "Visual Studio Light",
+  "css.colorDecorators.enable": false,
+  "typescript.check.npmIsInstalled": false,
   "editor.minimap.enabled": false,
-  "workbench.iconTheme": "vscode-great-icons"
+  "elixir.useElixirSense": false
 }
