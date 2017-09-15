@@ -39,5 +39,12 @@
   "css.colorDecorators.enable": false,
   "typescript.check.npmIsInstalled": false,
   "editor.minimap.enabled": false,
-  "elixir.useElixirSense": false
+  "elixir.useElixirSense": false,
+  "extensions.ignoreRecommendations": true,
+  "terminal.integrated.scrollback": 100000,
+  "explorer.autoReveal": false,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "terminal.integrated.fontLigatures": true,
+  "terminal.integrated.fontSize": 14
 }
