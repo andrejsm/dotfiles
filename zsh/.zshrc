@@ -23,15 +23,10 @@ prompt pure
 HISTSIZE=5000           # How many lines of history to keep in memory
 HISTFILE=~/.zsh_history # Where to save history to disk
 SAVEHIST=5000           # Number of history entries to save to disk
-# HISTDUP=erase           # Erase duplicates in the history file
+HISTDUP=erase           # Erase duplicates in the history file
 setopt appendhistory    # Append history to the history file (no overwriting)
 setopt sharehistory     # Share history across terminals
 setopt incappendhistory # Immediately append to the history file, not just when a term is killed
-
-
-# Load GIT aliases
-source "$DOTFILES_PATH/git/aliases.sh"
-
 
 # Load ZSH aliases
 source "$DOTFILES_PATH/zsh/aliases.sh"
@@ -40,11 +35,11 @@ source "$DOTFILES_PATH/zsh/aliases.sh"
 # Load ZSH functions
 source "$DOTFILES_PATH/zsh/functions.sh"
 
+# Load ASDF
+. $(brew --prefix asdf)/asdf.sh
 
-# Load local ZSH config
-if [[ -a "$HOME/.zshrc_local" ]]
-then
-  source "$HOME/.zshrc_local"
-fi
+# Set Code as default editor
+export EDITOR="code -w"
 
-. $DOTFILES_PATH/submodules/asdf/asdf.sh
+# Configure Plug to open Code
+export PLUG_EDITOR="vscode://file/__FILE__:__LINE__"
