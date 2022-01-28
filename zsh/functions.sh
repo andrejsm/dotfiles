@@ -11,14 +11,14 @@ asdfplugs() {
 
 # Open editor
 e() {
-    if [[ $# = 0 ]]
-    then
-        open -a "Visual Studio Code"
-    else
-        local argPath="$1"
-        [[ $1 = /* ]] && argPath="$1" || argPath="$PWD/${1#./}"
-        open -a "Visual Studio Code" "$argPath"
-    fi
+  if [[ $# = 0 ]]; then
+    code "$PWD"
+  else
+    local argPath="$1"
+    [[ $1 = /* ]] && argPath="$1" || argPath="$PWD/${1#./}"
+    code "$argPath"
+  fi
+}
 }
 
 # Run something
