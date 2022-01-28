@@ -12,5 +12,12 @@
 			"IO.inspect($1, label: ${2:label})"
 		],
 		"description": "Add IO.inspect with label"
+	},
+	"{:error, :not_found}": {
+		"prefix": "nf",
+		"body": [
+			"{:error, :not_found}$1"
+		],
+		"description": "Add {:error, :not_found}"
 	}
 }
