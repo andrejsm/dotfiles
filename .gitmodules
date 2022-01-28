@@ -1,13 +1,11 @@
 [submodule "zsh/plugins/pure"]
-	path = zsh/plugins/pure
-	url = git@github.com:sindresorhus/pure.git
+  path = zsh/plugins/pure
+  url = git@github.com:sindresorhus/pure.git
+
 [submodule "zsh/plugins/zsh-syntax-highlighting"]
-	path = zsh/plugins/zsh-syntax-highlighting
-	url = git@github.com:zsh-users/zsh-syntax-highlighting.git
+  path = zsh/plugins/zsh-syntax-highlighting
+  url = git@github.com:zsh-users/zsh-syntax-highlighting.git
+
 [submodule "zsh/plugins/zsh-history-substring-search"]
-	path = zsh/plugins/zsh-history-substring-search
-	url = git@github.com:zsh-users/zsh-history-substring-search.git
-[submodule "submodules/asdf"]
-	path = submodules/asdf
-	url = https://github.com/asdf-vm/asdf.git
-	branch = v0.3.0
+  path = zsh/plugins/zsh-history-substring-search
+  url = git@github.com:zsh-users/zsh-history-substring-search.git
