@@ -1,3 +1,4 @@
 zsh/symlinks/
 .vscode/
+.zshrc
 Brewfile.lock.json
