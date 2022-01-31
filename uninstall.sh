@@ -1,6 +1,4 @@
-#!/usr/bin/env bash
-
-DOTFILES_PATH="$HOME/dotfiles"
+DOTFILES_PATH="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
 
 # Unlink .zshrc
 echo "Unlinking .zshrc"
