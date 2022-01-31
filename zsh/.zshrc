@@ -1,23 +1,16 @@
-DOTFILES_PATH="$HOME/dotfiles"
-
-# Add function path
-fpath=( "$DOTFILES_PATH/zsh/symlinks" $fpath )
-
-# Add more colors
-source "$DOTFILES_PATH/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"
-
+DOTFILES_PATH="$(dirname "$0")"
+clear
 
 # Search in history
-source "$DOTFILES_PATH/zsh/plugins/zsh-history-substring-search/zsh-history-substring-search.zsh"
+source "$(brew --prefix zsh-history-substring-search)/share/zsh-history-substring-search/zsh-history-substring-search.zsh"
 bindkey '^[[A' history-substring-search-up
 bindkey '^[[B' history-substring-search-down
 
-
 # Set prompt theme
+fpath+=/opt/homebrew/share/zsh/site-functions
 autoload -U promptinit && promptinit
 PURE_CMD_MAX_EXEC_TIME=0
 prompt pure
-
 
 # History Configuration
 HISTSIZE=5000           # How many lines of history to keep in memory
@@ -31,15 +24,18 @@ setopt incappendhistory # Immediately append to the history file, not just when 
 # Load ZSH aliases
 source "$DOTFILES_PATH/zsh/aliases.sh"
 
-
 # Load ZSH functions
 source "$DOTFILES_PATH/zsh/functions.sh"
 
 # Load ASDF
-. $(brew --prefix asdf)/asdf.sh
+. "$(brew --prefix asdf)"/asdf.sh
 
 # Set Code as default editor
 export EDITOR="code -w"
 
 # Configure Plug to open Code
 export PLUG_EDITOR="vscode://file/__FILE__:__LINE__"
+
+# This plugin must be sourced at the end of file
+# https://github.com/zsh-users/zsh-syntax-highlighting#why-must-zsh-syntax-highlightingzsh-be-sourced-at-the-end-of-the-zshrc-file
+source "$(brew --prefix zsh-syntax-highlighting)/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh"

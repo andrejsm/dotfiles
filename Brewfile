@@ -2,6 +2,10 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 
+brew "pure"
+brew "zsh-syntax-highlighting"
+brew "zsh-history-substring-search"
+
 brew "asdf"
 brew "openssl@3"
 brew "sops"
