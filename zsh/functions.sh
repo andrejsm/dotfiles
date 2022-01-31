@@ -22,10 +22,10 @@ e() {
 
 # Run something
 run() {
-	if [ -f ".run" ]
-	then
-		bash .run $@
-	else
-		echo "Don't know what to run"
-	fi
+  if [ -f ".run" ]
+  then
+    zsh .run $@
+  else
+    echo "Don't know what to run"
+  fi
 }
