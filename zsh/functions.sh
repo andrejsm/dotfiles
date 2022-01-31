@@ -19,7 +19,6 @@ e() {
     code "$argPath"
   fi
 }
-}
 
 # Run something
 run() {
