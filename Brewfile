@@ -24,7 +24,6 @@ cask "monitorcontrol"
 # Apps
 cask "keybase"
 cask "visual-studio-code"
-cask "microsoft-edge"
 cask "gitup"
 cask "postico"
 cask "imageoptim"
