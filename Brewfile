@@ -28,5 +28,4 @@ cask "gitup"
 cask "postico"
 cask "imageoptim"
 cask "figma"
-cask "slack"
 
