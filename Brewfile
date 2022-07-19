@@ -12,6 +12,10 @@ brew "openssl@3"
 brew "sops"
 brew "yarn"
 
+# Local https
+brew "mkcert"
+brew "nss"
+
 # Utilities
 cask "alt-tab"
 cask "shiftit"
