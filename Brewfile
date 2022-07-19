@@ -17,9 +17,9 @@ brew "mkcert"
 brew "nss"
 
 # Utilities
-cask "alt-tab"
-cask "shiftit"
-cask "monitorcontrol"
+# cask "alt-tab"
+# cask "shiftit"
+# cask "monitorcontrol"
 
 # Apps
 cask "keybase"
