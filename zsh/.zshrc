@@ -1,6 +1,9 @@
 DOTFILES_PATH="$(dirname "$0")"
 clear
 
+# Ensure brew is in PATH
+export PATH=/opt/homebrew/bin:$PATH
+
 # Search in history
 source "$(brew --prefix zsh-history-substring-search)/share/zsh-history-substring-search/zsh-history-substring-search.zsh"
 bindkey '^[[A' history-substring-search-up
