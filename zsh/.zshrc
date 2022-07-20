@@ -1,6 +1,9 @@
 DOTFILES_PATH="$(dirname "$0")"
 clear
 
+# Necessary for proper pathing to OpenSSL
+export HOMEBREW_PREFIX=/opt/homebrew
+
 # Ensure brew is in PATH
 export PATH=/opt/homebrew/bin:$PATH
 
