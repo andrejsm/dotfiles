@@ -1,6 +1,7 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
+tap "homebrew/cask-fonts"
 
 # Enhance zsh
 brew "pure"
@@ -20,6 +21,9 @@ brew "nss"
 # cask "alt-tab"
 # cask "shiftit"
 # cask "monitorcontrol"
+
+# Fonts
+cask "font-jetbrains-mono"
 
 # Apps
 # cask "keybase"
