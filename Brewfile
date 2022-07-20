@@ -22,7 +22,7 @@ brew "nss"
 # cask "monitorcontrol"
 
 # Apps
-cask "keybase"
+# cask "keybase"
 cask "visual-studio-code"
 cask "gitup"
 cask "postico"
